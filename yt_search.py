@@ -1,9 +1,12 @@
 import googleapiclient.discovery
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def search(name):
 
-    API_KEY = 'AIzaSyDj7rFDBCtN1hsKXAuQ_zAOfmfwADVuB44'
+    API_KEY = os.getenv('GOOGLE_API')
     api_service_name = "youtube"
     api_version = "v3"
 
