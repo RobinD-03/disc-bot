@@ -1,0 +1,5 @@
+google-api-python-client
+discord.py
+yt-dlp
+python-dotenv
+flask
